@@ -15,19 +15,25 @@
         padding-left: 25px;
       }
       #sector-1 {
-        color: rgb(0, 0, 255);
+        font-size: 55px;
         cursor: pointer;
+      }
+      #sector-1:hover {
+        color: rgb(255, 165, 0);
+      }
+      #sector-1:active {
+        color: rgb(255, 195, 0);
       }
     </style>
   </head>
 
   <body>
     <section id="sector-1">
-      <u onclick="order()">Order</u>
+      <u style="color: rgb(255, 0, 0);" onclick="order()">Order</u>
       <br>
-      <u onclick="aboutUs()">About Us</u>
+      <u style="color: rgb(0, 255, 0);" onclick="aboutUs()">About Us</u>
       <br>
-      <u onclick="more()">More</u>
+      <u style="color: rgb(0, 0, 255);" onclick="more()">More</u>
     </section>
     
     <!--Main Body-->
